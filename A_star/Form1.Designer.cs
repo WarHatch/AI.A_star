@@ -111,7 +111,6 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "A* path search by Karolis Staskevičius";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.KeyPressEvent);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();

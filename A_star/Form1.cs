@@ -13,7 +13,7 @@ using System.Text.RegularExpressions;
 
 namespace A_star
 {
-	public enum Options { Depth, Breadth }
+	public enum Options { Depth, Breadth } //FIXME: Always on default value
 	public partial class Form1 : Form
 	{
 		Square[,] grid;
@@ -304,15 +304,10 @@ namespace A_star
         
 		private void KeyPressEvent(object sender, KeyPressEventArgs e)
 		{
-			if(e.KeyChar == (char)97)
+			if(e.KeyChar == (char)32)
 			{
 				Run(false, true);
 			}
 		}
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
