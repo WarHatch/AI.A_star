@@ -56,7 +56,7 @@ namespace A_star
 						break;
 					case SquareType.Terminal:
 						background.BackColor = Color.Green;
-						weightLabelShort.Text = "T";
+						weightLabelShort.Text = "F";
 						weightLabelLong.Text = "";
 						step = 0;
 						break;
